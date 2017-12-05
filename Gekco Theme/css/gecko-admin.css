@@ -1,0 +1,53 @@
+/*
+ADmin Settings CSS
+*/
+
+.gecko-general-form,
+.gecko-sidebar-preview {
+    display: inline-block; 
+    float: left;
+}
+
+.gecko-sidebar-preview {
+    width: 280px;
+    background-color: darkgray;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.gecko-sidebar-title,
+.gecko-sidebar-description {
+    font-weight: 100;
+    color: #fff;
+}
+
+.gecko-sidebar-title {
+    font-size: 24px; 
+    margin: 0 0 10px;
+}
+.gecko-sidebar-description {
+    font-size: 14px; 
+    margin: 0 0 20px;
+}
+.logo-container {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.logo-image {
+    overflow: hidden;
+    border-radius: 10%;
+    margin: 5px auto;
+}
+.logo-image {
+    max-width: 100%;
+    height: auto;
+    top: -10px;
+    position: relative;
+}
+.sidebar-preview-text {
+    font-weight: 600;
+    font-size: 18px;
+}
